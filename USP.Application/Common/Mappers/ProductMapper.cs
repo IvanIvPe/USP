@@ -30,7 +30,6 @@ public static partial class ProductMapper
             Name = dto.Name,
             Description = dto.Description,
             Price = dto.Price,
-            // Category = Category.FromValue(dto.Category),
             User = user,
             ReferencedOneToOneUser = referencedOneToOneUser
         };

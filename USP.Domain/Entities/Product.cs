@@ -16,8 +16,7 @@ public class Product : Entity
 
     [OwnerSide] 
     public Many<User, Product> ReferencedManyToManyUser { get; set; }
-
-    // public Category Category { get; set; }
+    
 
     public Product()
     {

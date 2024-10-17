@@ -16,9 +16,9 @@ public class CreateUserTests : Base
     {
         //Given (Arrange) - what is part of request
         var dto = new EditUserDtoBuilder()
-            .WithFirstName("Petar")
-            .WithLastName("Bisevac")
-            .WithEmail("pbisevac@singidunum.ac.rs")
+            .WithFirstName("Ivan")
+            .WithLastName("Pesic")
+            .WithEmail("ivanpesic@gmail.com")
             .Build();
 
         var command = new EditUserCommandBuilder()
@@ -43,8 +43,8 @@ public class CreateUserTests : Base
     {
         //Given (Arrange) - what is part of request
         var dto = new EditUserDtoBuilder()
-            .WithLastName("Bisevac")
-            .WithEmail("pbisevac@singidunum.ac.rs")
+            .WithLastName("Pesic")
+            .WithEmail("ivanpesic@gmail.com")
             .Build();
 
         var command = new EditUserCommandBuilder()
@@ -69,8 +69,8 @@ public class CreateUserTests : Base
     {
         //Given (Arrange) - what is part of request
         var dto = new EditUserDtoBuilder()
-            .WithFirstName("Petar")
-            .WithEmail("pbisevac@singidunum.ac.rs")
+            .WithFirstName("Ivan")
+            .WithEmail("ivanpesic@gmail.com")
             .Build();
 
         var command = new EditUserCommandBuilder()
@@ -95,8 +95,8 @@ public class CreateUserTests : Base
     {
         //Given (Arrange) - what is part of request
         var dto = new EditUserDtoBuilder()
-            .WithFirstName("Petar")
-            .WithLastName("Bisevac")
+            .WithFirstName("Ivan")
+            .WithLastName("Pesic")
             .Build();
 
         var command = new EditUserCommandBuilder()

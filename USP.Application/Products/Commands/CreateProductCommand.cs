@@ -13,16 +13,16 @@ public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand,
     {
         var userEntity = new Domain.Entities.User
         {
-            Email = "pbisevac@singidunuma.ac.rs",
-            FirstName = "Petar",
-            LastName = "Bisevac",
+            Email = "ivanpesic@gmail.com",
+            FirstName = "Ivan",
+            LastName = "Pesic",
         };
 
         var userEntity2 = new Domain.Entities.User
         {
-            Email = "pbisevac2@singidunuma.ac.rs",
-            FirstName = "Petar2",
-            LastName = "Bisevac2",
+            Email = "snezananastic@gmail.com",
+            FirstName = "Snezana",
+            LastName = "Nastic",
         };
 
         await userEntity.SaveAsync(cancellation: cancellationToken);

@@ -9,13 +9,13 @@ public abstract class Category(string name, int value) : SmartEnum<Category>(nam
 
     public abstract string CheckSubcategories();
 
-    public static Category Sport = new SportCategory();
+    public static Category Automobili = new AutomobiliCategory();
     public static Category Muzika = new MuzikaCategory();
     
-    private class SportCategory() : Category(nameof(Sport), 0)
+    private class AutomobiliCategory() : Category(nameof(Automobili), 0)
     {
-        public override string NameOfCategory => "Sport";
-        public override string DescriptionOfCategory => "Neki opis za sport kategoriju";
+        public override string NameOfCategory => "Automobili";
+        public override string DescriptionOfCategory => "Automobili kao prevozna sredstva";
 
         public override string CheckSubcategories()
         {

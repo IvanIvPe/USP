@@ -247,7 +247,10 @@
           "USP.Domain": "1.0.0"
         },
         "runtime": {
-          "USP.Application.dll": {}
+          "USP.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "USP.Domain/1.0.0": {
@@ -256,7 +259,10 @@
           "MongoDB.Entities": "23.1.1"
         },
         "runtime": {
-          "USP.Domain.dll": {}
+          "USP.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
